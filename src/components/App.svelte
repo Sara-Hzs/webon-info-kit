@@ -1,6 +1,6 @@
 <script>
     export let name;
-    import Navbar from './componenets/Navbar.svelte';
+    import Navbar from './Navbar.svelte';
     import HeroSection from './HeroSection.svelte';
     import FeatureGrid from './FeatureGrid.svelte';
     import TechOverview from './TechOverview.svelte';
