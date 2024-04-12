@@ -1,8 +1,28 @@
 <script>
     let email = '';
+    let message = ''; // Placeholder for messages to the user
+    let submitting = false; // Indicates when the submission is in progress
 
-    const subscribe = () => {
-        console.log(`Subscribing ${email}`);
+    const subscribe = async () => {
+        if (email.trim() === '') {
+            message = 'Please enter a valid email.';
+            return;
+        }
+
+        try {
+            submitting = true;
+            // Simulate an API call with a timeout
+            await new Promise((resolve) => setTimeout(resolve, 1000));
+
+            // After successful API call:
+            message = 'Thank you for subscribing!';
+            email = ''; // Clear the input
+        } catch (error) {
+            // Handle any errors
+            message = 'Subscription failed. Please try again.';
+        } finally {
+            submitting = false;
+        }
     };
 </script>
 
@@ -38,6 +58,7 @@
         align-items: flex-start;
         flex: 1 1 340px;
 
+
     }
     .input-group {
         display: flex;
@@ -51,6 +72,12 @@
         font-size: 1.2rem;
     }
 
+
+    .newsletter input[type="email"], .newsletter button {
+        box-sizing: border-box;
+        height: 40px;
+
+    }
     .newsletter input[type="email"] {
 
         margin-right: 0.5em;
