@@ -64,7 +64,7 @@
             decentralized finance. </p>
     </div>
     <div class="icon-container">
-        <img src="/Assets/new_era.svg" alt=""/>
+        <img src="new_era.svg" alt=""/>
     </div>
     <div class="tech-advancement-footer">
         <h2>A New Era of Web and DeFi Integration

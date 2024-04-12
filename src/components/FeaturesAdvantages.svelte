@@ -95,7 +95,7 @@
         <h2 class="section-header">The Features of WebOn Technology</h2>
         <ul class="feature-list">
             <li class="feature-item">
-                <img src="/Assets/CheckCircle.svg" alt="">
+                <img src="CheckCircle.svg" alt="">
                 <div>
                     <h3>Broadening Your Reach with Easy Integration for Wallet Users</h3>
                     <p>If your website is already a part of the innovative wave of DeFi by supporting MetaMask or Wallet
@@ -108,7 +108,7 @@
 
             </li>
             <li class="feature-item">
-                <img src="/Assets/CheckCircle.svg" alt="">
+                <img src="CheckCircle.svg" alt="">
                 <div>
                     <h3>Seamless User Experience and Easy Integration</h3>
                     <p>WebOns integrate directly with your existing website, facilitating a unified experience where
@@ -121,7 +121,7 @@
 
             </li>
             <li class="feature-item">
-                <img src="/Assets/CheckCircle.svg" alt="">
+                <img src="CheckCircle.svg" alt="">
                 <div>
                     <h3>Interactive Elements for Enhanced User Engagement and Retention</h3>
                     <p>WebOns elevate websites from being mere sources of information to immersive experiences that
@@ -136,7 +136,7 @@
 
             </li>
             <li class="feature-item">
-                <img src="/Assets/CheckCircle.svg" alt="">
+                <img src="CheckCircle.svg" alt="">
                 <div>
                     <h3>Tailored to Your Audience with Customization at Your Fingertips</h3>
                     <p>Personalize your website to reflect the unique preferences of your users, including DeFi
@@ -147,7 +147,7 @@
 
             </li>
             <li class="feature-item">
-                <img src="/Assets/CheckCircle.svg" alt="">
+                <img src="CheckCircle.svg" alt="">
                 <div>
                     <h3>Versatility and User-Friendliness: Beyond EVM Chains</h3>
                     <p>WebOn Technology is not limited to traditional EVM chains, extending support to a variety of
@@ -165,27 +165,27 @@
         <h2 class="section-header">Advantages of WebOn Technology</h2>
         <div class="advantages-container">
             <div class="advantage-item">
-                <img src="/Assets/CalendarCheck.svg" alt="Always Current" class="icon">
+                <img src="CalendarCheck.svg" alt="Always Current" class="icon">
                 <h3>Always Current</h3>
                 <p>Eliminate the hassle of constant manual updates. WebOns refresh alongside your website, ensuring
                     your DeFi features remain up-to-date.</p>
             </div>
             <div class="advantage-item">
-                <img src="/Assets/Devices.svg" alt="Accessibility Across Devices" class="icon">
+                <img src="Devices.svg" alt="Accessibility Across Devices" class="icon">
                 <h3>Accessibility Across Devices</h3>
                 <p>Embrace universal accessibility with WebOns, designed to deliver a consistent and engaging
                     experience across all devices. This approach not only widens your audience reach but also aligns
                     with modern expectations for fluid, cross-platform user journeys.</p>
             </div>
             <div class="advantage-item">
-                <img src="/Assets/ShieldCheck.svg" alt="State-of-the-Art Security & Trust" class="icon">
+                <img src="ShieldCheck.svg" alt="State-of-the-Art Security & Trust" class="icon">
                 <h3>State-of-the-Art Security & Trust</h3>
                 <p>Drawing upon the highest standards of web interaction security, WebOns ensure that every feature
                     added to your site upholds rigorous protection measures. This commitment to security builds a
                     foundation of trust with your users, crucial for fostering long-term relationships.</p>
             </div>
             <div class="advantage-item">
-                <img src="/Assets/PiggyBank.svg" alt="Cost-Effective Innovation" class="icon">
+                <img src="PiggyBank.svg" alt="Cost-Effective Innovation" class="icon">
                 <h3>Cost-Effective Innovation</h3>
                 <p>With WebOn Technology, adding sophisticated features to your site no longer requires extensive
                     resources or development time. WebOns offer a cost-effective route to innovation, allowing you

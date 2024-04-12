@@ -57,7 +57,7 @@
         <p>Imagine seamlessly incorporating a sophisticated booking system, a real-time chat feature, or an interactive product showcase. Now extend that with the ability to interact with the DeFi space, execute smart contracts, or manage cryptocurrency transactions directly on your site. WebOns are the modular add-ons that bridge the gap between traditional web functionalities and the burgeoning world of decentralized finance.</p>
     </div>
     <div class="icon-container">
-        <img src="/Assets/webons_orbits.svg" alt="webons orbits"/>
+        <img src="webons_orbits.svg" alt="webons orbits"/>
     </div>
     <div class="tech-overview-footer" >
         <h2>Unlock the Potential: WebOn Technology vs. Traditional Wallet Integrations</h2>

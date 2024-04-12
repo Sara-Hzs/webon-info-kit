@@ -1,14 +1,14 @@
 <script>
     export let name;
-    import Navbar from './componenets/Navbar.svelte';
-    import HeroSection from './HeroSection.svelte';
-    import FeatureGrid from './FeatureGrid.svelte';
-    import TechOverview from './TechOverview.svelte';
-    import Comparison from './Comparison.svelte';
-    import FeaturesAdvantages from './FeaturesAdvantages.svelte';
-    import TechAdvancement from './TechAdvancement.svelte';
-    import Popular from './Popular.svelte';
-    import Footer from './Footer.svelte';
+    import Navbar from '../components/Navbar.svelte';
+    import HeroSection from '../components/HeroSection.svelte';
+    import FeatureGrid from '../components/FeatureGrid.svelte';
+    import TechOverview from '../components/TechOverview.svelte';
+    import Comparison from '../components/Comparison.svelte';
+    import FeaturesAdvantages from '../components/FeaturesAdvantages.svelte';
+    import TechAdvancement from '../components/TechAdvancement.svelte';
+    import Popular from '../components/Popular.svelte';
+    import Footer from '../components/Footer.svelte';
 </script>
 
 <main>

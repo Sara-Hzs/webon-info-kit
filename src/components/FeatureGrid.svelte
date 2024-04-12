@@ -38,7 +38,7 @@
 
 <div class="grid-section">
 
-    <img src="/Assets/webOn_screenshots.svg" alt="webOn screenshots"/>
+    <img src="webOn_screenshots.svg" alt="webOn screenshots"/>
     <div class="grid-content">
         <p>With the pioneering spirit of digital innovation, WebOn Technology redefines what it means to visit a
             website, turning passive browsing into an active adventure enriched with interactive features and seamless

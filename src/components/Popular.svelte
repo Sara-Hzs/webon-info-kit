@@ -2,32 +2,32 @@
 
     const webOns = [
         {
-            img: '/Assets/Frame 121076188.svg',
+            img: 'Frame 121076188.svg',
             title: 'ZENPASS',
             description: 'ZENPASS leverages advanced identity verification technology on the ZENIQ Smart Chain, incorporating blockchain for secure and transparent authentication.'
         },
         {
-            img: '/Assets/Frame 121076189.svg',
+            img: 'Frame 121076189.svg',
             title: 'ZENCON Debit Card',
             description: 'The ZENCON Debit Card employs advanced DeFi technology, connecting with the FINEX Bank platform through API integration.'
         },
         {
-            img: '/Assets/Frame 121076190.svg',
+            img: 'Frame 121076190.svg',
             title: 'Neo Credit DeFi',
             description: 'Unleash your earning power by seamlessly staking your NEO Credit tokens, amplifying returns without limits, and exploring lucrative opportunities for growth and success in the blockchain ecosystem.'
         },
         {
-            img: '/Assets/Frame 121076191.svg',
+            img: 'Frame 121076191.svg',
             title: 'AVINOC Migration',
             description: 'The AVINOC Migration WebOn enables users to seamlessly swap ERC20 AVINOC Tokens to ZEN20 Tokens on the ZENIQ Smart Chain.'
         },
         {
-            img: '/Assets/TokenGenerator.svg',
+            img: 'TokenGenerator.svg',
             title: 'Token Generator',
             description: 'The Token Generator WebOn harnesses the power of the ZENIQ Smart Chain, employing blockchain technology for the seamless creation and management of custom tokens.'
         },
         {
-            img: '/Assets/EURKMigration.svg',
+            img: 'EURKMigration.svg',
             title: 'EURK Migration',
             description: 'Experience the convenience of converting EuroCoin into a versatile voucher, unlocking new possibilities within the KMall digital realm.'
         }

@@ -1,183 +1,147 @@
 <script>
-    let email = '';
+    import { onMount } from 'svelte';
 
-    const subscribe = () => {
-        console.log(`Subscribing ${email}`);
+    let dropdownMenuVisible = false;
+
+    onMount(() => {
+        const handleClick = (event) => {
+            // Check if the click is outside the dropdown
+            if (!event.target.closest('.dropdown')) {
+                dropdownMenuVisible = false;
+            }
+        };
+
+        // Add event listener to the window for clicks
+        window.addEventListener('click', handleClick);
+
+        // Cleanup the event listener on component destruction
+        return () => {
+            window.removeEventListener('click', handleClick);
+        };
+    });
+
+    // Function to toggle the dropdown menu visibility
+    const toggleDropdownMenu = (event) => {
+        event.stopPropagation(); // Prevent the click from reaching the window listener
+        dropdownMenuVisible = !dropdownMenuVisible;
     };
 </script>
 
 <style>
-    .content{
+
+    .hero-section {
+        text-align: center;
         background-color: #000;
         color: #fff;
-
-    }
-    .container {
-        background: #2d2c2c;
-        max-width: 1200px;
-        margin: auto;
-        padding: 1rem;
-
-    }
-
-    .header {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        align-items: center;
-        padding: 1rem 2rem;
-        color: #fff;
-    }
-
-    .newsletter {
-        padding: 1rem;
-        max-width: 340px;
-        text-align: left;
+        padding: 2rem 1rem;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        flex: 1 1 340px;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo-container {
+        position: relative;
+        width: 80%;
+        max-width: 300px;
+        height: auto;
+        margin-bottom: 7em;
 
     }
-    .input-group {
-        display: flex;
+
+    .logo-img {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: opacity 0.5s ease;
         width: 100%;
+
     }
 
-    .newsletter label {
-        display: block;
-        color: #fff;
-        margin-bottom: 0.5rem;
-        font-size: 1.2rem;
+
+    .logo-hover {
+        opacity: 0;
     }
 
-    .newsletter input[type="email"] {
 
-        margin-right: 0.5em;
-        flex-grow: 1;
-        background: #4f4e4e;
-        border: 1px solid #262626;
+    .logo-container:hover .logo-hover {
+        opacity: 1;
+    }
+
+
+    .logo-container:hover .logo-img:not(.logo-hover) {
+        opacity: 0;
+    }
+
+    .hero-btns {
+        display: flex;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+
+    .hero-section h1 {
+        font-size: calc(1rem + 2vw);
+        margin-top: 3em;
+        margin-bottom: 0;
+
+    }
+
+    .hero-section h2 {
+        max-width: 900px;
+        font-size: calc(1rem + 1vw);
+        margin: 1rem;
+
+    }
+
+    .hero-section p {
+        max-width: 1200px;
+        font-size: calc(0.7rem + 0.4vw);
+        margin:2rem;
+    }
+
+
+    .button-s{
+        padding: 10px 20px;
+        margin: 5px;
+        border: 1px solid #7e7c7c;
+        border-radius: 5px;
+        background-color: #000000;
         color: #fdfdfd;
-        width: calc(100% - 4rem);
-        margin-bottom: 0.5rem;
-    }
-    .newsletter button {
-        background: #fdfdfd;
-        border: none;
-        color: #000000;
         cursor: pointer;
-        white-space: nowrap;
-        flex: none;
+        text-decoration: none;
     }
-
-    .newsletter button:hover {
+    .button-s:hover {
         background: #1e1f22;
         color: #fdfdfd;
     }
-    .newsletter p {
-        color: #aaa;
-        font-size: 0.8rem;
-        margin-top: 0.5rem;
-    }
-    .logo {
-        display: flex;
-        align-items: flex-start;
-        margin-left: auto;
-        padding-right: 2rem;
-        margin-bottom: auto;
-        color: #fff;
-    }
-
-    .logo img {
-        height: 30px;
-        margin-right: 10px;
-
-    }
-
-    .logo span {
-        font-size: 0.8em;
-        color: #aaa;
-
-    }
-    .bottom{
-        display: flex;
-        justify-content: space-between;
-        padding: 0 4em;
-        font-size: 0.8em;
-        flex-wrap: wrap;
-    }
-
-    .bottom a {
-        color: #aaa;
-        text-decoration: none;
-    }
-
-    .bottom a:hover {
-        text-decoration: underline;
-    }
-    @media (max-width: 480px) {
 
 
-        .header {
-            flex-direction: column;
-            align-items: center;
-            padding: 0.5rem;
-        }
-
-        .logo, .newsletter, .bottom {
-            width: 100%;
-            padding: 0.5rem 0;
-            order: 0;
-        }
-
-        .logo {
-            order: 1;
-            padding-bottom: 2.5rem;
-            padding-top: 3rem;
-        }
-
-        .newsletter {
-            order: 2;
-            margin-bottom: 0;
-            padding-bottom: 0;
-        }
-
-        .bottom {
-            order: 3;
-            padding-top: 0;
-            padding-bottom: 0.5rem;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .bottom a {
-            margin: 0.25rem 0;
-        }
-
-        .bottom span {
-            margin-bottom: 0.5rem;
-        }
-    }
 </style>
-<div class="content">
-    <div class="container">
-        <div class="header">
-            <div class="newsletter">
-                <label for="email" class="visually-hidden">Subscribe to our newsletter</label>
-                <div class="input-group">
-                    <input type="email" bind:value={email} placeholder="Enter your email" id="email" />
-                    <button on:click={subscribe}>Sign up</button>
-                </div>
-                <p>You can unsubscribe at any time.</p>
-            </div>
-            <div class="logo">
-                <img src="Assets/logo.svg" alt="WebOn Tech logo">
-                <span>WebOn Tech.</span>
-            </div>
-        </div>
-        <div class="bottom">
-            <span>© All rights reserved.</span>
 
-        </div>
+
+<div class="hero-section">
+
+    <div class="logo-container">
+        <img src="puzzle_pieces_closed.svg" alt="WebOn Technology Logo" class="logo-img"/>
+        <img src="puzzle_pieces_open.svg" alt="WebOn Technology Logo" class="logo-img logo-hover"/>
+    </div>
+    <h1>WebOn Technology</h1>
+
+    <h2>Enhance, Engage, and Elevate Your Website with DeFi Integration</h2>
+    <p>Welcome to the intuitive world of WebOn Technology – the ultimate enhancement tool for your website, now offering
+        deeper integration with the Decentralized Finance (DeFi) ecosystem.</p>
+    <div class="hero-btns">
+        <!-- <div class="dropdown">
+             <button class="button dropdown-toggle">
+                 Download WebOns <span class="flash-icon">&#x25BC;</span>
+             </button>
+             <!-iv class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">App number 1</a>
+        <a class="dropdown-item" href="#">App number 2</a>
+        <a class="dropdown-item" href="#">App number 3</a>
+    </div>
+
+          </div>-->
+        <a href="#learn-more" class="button-s">Learn more</a>
     </div>
 </div>

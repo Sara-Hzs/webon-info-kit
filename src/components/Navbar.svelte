@@ -1,19 +1,20 @@
-<script>
-    import { scrollTo } from '../scripts/scroll.js';
-    document.addEventListener('DOMContentLoaded', function() {
-        const toggleButton = document.querySelector('.navbar-toggle');
-        const navList = document.querySelector('.navbar ul');
 
-        toggleButton.addEventListener('click', function() {
-            // Check if menu is currently displayed
-            if (navList.style.display === 'flex') {
-                navList.style.display = 'none';
-            } else {
-                navList.style.display = 'flex';
-            }
-        });
+<script>
+    import { onMount } from 'svelte';
+    import { scrollTo } from '$lib/scroll.js';
+
+    let isNavOpen = false;
+
+
+    function toggleNavList() {
+        isNavOpen = !isNavOpen;
+    }
+    onMount(() => {
+
     });
 </script>
+
+
 
 <style>
 
@@ -123,13 +124,14 @@
 
 <nav class="navbar">
     <div class="logo">
-        <img src="/Assets/logo.svg" alt="logo">
+        <img src="/logo.svg" alt="logo">
     </div>
-    <button class="navbar-toggle" aria-label="Toggle navigation">Menu</button>
-    <ul>
+    <button class="navbar-toggle" aria-label="Toggle navigation" on:click={toggleNavList}>Menu</button>
+    <ul class:open={isNavOpen}>
         <li><a href="#techOverviewContainer" use:scrollTo>About</a></li>
         <li><a href="#comparisonContainer" use:scrollTo>Compare</a></li>
         <li><a href="#featuresAdvantagesContainer" use:scrollTo>Features</a></li>
-        <li><a href="https://discover.nomo.zone/" >Discover WebOn</a></li>
+        <li><a href="https://discover.nomo.zone/">Discover WebOn</a></li>
     </ul>
 </nav>
+

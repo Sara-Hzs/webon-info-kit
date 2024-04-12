@@ -171,7 +171,7 @@
                 <p>You can unsubscribe at any time.</p>
             </div>
             <div class="logo">
-                <img src="Assets/logo.svg" alt="WebOn Tech logo">
+                <img src="logo.svg" alt="WebOn Tech logo">
                 <span>WebOn Tech.</span>
             </div>
         </div>
