@@ -64,7 +64,7 @@
         background-color: #fdfdfd;
         color: #1e1f22;
         border: none;
-        display: none; /* Hidden by default */
+        display: none;
         font-size: 1rem;
         cursor: pointer;
     }

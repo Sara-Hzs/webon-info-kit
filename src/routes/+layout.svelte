@@ -1,4 +1,9 @@
+<script>
+import '/src/routes/global.scss';
 
+</script>
+
+<slot></slot>
 
 <style>
     * {
@@ -17,5 +22,3 @@
         overflow: hidden;
     }
 </style>
-
-<slot></slot>

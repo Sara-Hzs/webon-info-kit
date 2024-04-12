@@ -66,11 +66,10 @@
     @media (max-width: 768px) {
 
         .feature-item {
-            text-align: left;
-            margin-top: 2rem;
-            margin-bottom: 3rem;
-            width: 100%;
-            padding: 0;
+            display: block;
+        }
+        .feature-list {
+          padding-right: 1.2rem;
         }
 
 
