@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
 
 const config = {
@@ -9,10 +9,8 @@ const config = {
 
 	preprocess: preprocess({
 		scss: {
-
 			prependData: `@import './src/routes/global.scss';`
 		},
-
 	})
 };
 

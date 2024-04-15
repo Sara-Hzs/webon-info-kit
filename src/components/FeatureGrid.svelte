@@ -1,6 +1,19 @@
 <script>
-
+    import grid from '../assets/grid.svg'
 </script>
+
+<div class="grid-section">
+
+    <img src={grid} alt="hello beautiful"/>
+    <div class="grid-content">
+        <p>With the pioneering spirit of digital innovation, WebOn Technology redefines what it means to visit a
+            website, turning passive browsing into an active adventure enriched with interactive features and seamless
+            DeFi connectivity.</p>
+
+    </div>
+
+
+</div>
 
 <style>
 
@@ -35,16 +48,3 @@
 
 
 </style>
-
-<div class="grid-section">
-
-    <img src="webOn_screenshots.svg" alt="webOn screenshots"/>
-    <div class="grid-content">
-        <p>With the pioneering spirit of digital innovation, WebOn Technology redefines what it means to visit a
-            website, turning passive browsing into an active adventure enriched with interactive features and seamless
-            DeFi connectivity.</p>
-
-    </div>
-
-
-</div>

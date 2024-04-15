@@ -27,6 +27,35 @@
     };
 </script>
 
+
+<div class="hero-section">
+
+    <div class="logo-container">
+        <img src="puzzle_pieces_closed.svg" alt="WebOn Technology Logo" class="logo-img"/>
+        <img src="puzzle_pieces_open.svg" alt="WebOn Technology Logo" class="logo-img logo-hover"/>
+    </div>
+    <h1>WebOn Technology</h1>
+
+    <h2>Enhance, Engage, and Elevate Your Website with DeFi Integration</h2>
+    <p>Welcome to the intuitive world of WebOn Technology – the ultimate enhancement tool for your website, now offering
+        deeper integration with the Decentralized Finance (DeFi) ecosystem.</p>
+    <div class="hero-btns">
+        <!-- <div class="dropdown">
+             <button class="button dropdown-toggle">
+                 Download WebOns <span class="flash-icon">&#x25BC;</span>
+             </button>
+             <!-iv class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">App number 1</a>
+        <a class="dropdown-item" href="#">App number 2</a>
+        <a class="dropdown-item" href="#">App number 3</a>
+    </div>
+
+          </div>-->
+        <a href="#learn-more" class="button-s">Learn more</a>
+    </div>
+</div>
+
+
 <style>
 
     .hero-section {
@@ -118,30 +147,3 @@
 
 </style>
 
-
-<div class="hero-section">
-
-    <div class="logo-container">
-        <img src="puzzle_pieces_closed.svg" alt="WebOn Technology Logo" class="logo-img"/>
-        <img src="puzzle_pieces_open.svg" alt="WebOn Technology Logo" class="logo-img logo-hover"/>
-    </div>
-    <h1>WebOn Technology</h1>
-
-    <h2>Enhance, Engage, and Elevate Your Website with DeFi Integration</h2>
-    <p>Welcome to the intuitive world of WebOn Technology – the ultimate enhancement tool for your website, now offering
-        deeper integration with the Decentralized Finance (DeFi) ecosystem.</p>
-    <div class="hero-btns">
-        <!-- <div class="dropdown">
-             <button class="button dropdown-toggle">
-                 Download WebOns <span class="flash-icon">&#x25BC;</span>
-             </button>
-             <!-iv class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="#">App number 1</a>
-        <a class="dropdown-item" href="#">App number 2</a>
-        <a class="dropdown-item" href="#">App number 3</a>
-    </div>
-
-          </div>-->
-        <a href="#learn-more" class="button-s">Learn more</a>
-    </div>
-</div>
