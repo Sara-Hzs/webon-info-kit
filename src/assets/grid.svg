@@ -92,6 +92,7 @@
 </g>
 <g filter="url(#filter6_d_1139_3290)">
 <rect x="653.199" y="443" width="298" height="319" rx="8.13" fill="url(#pattern1_1139_3290)" shape-rendering="crispEdges"/>
+<rect x="653.699" y="443.5" width="297" height="318" rx="7.63" stroke="white" stroke-opacity="0.3" shape-rendering="crispEdges"/>
 </g>
 <defs>
 <filter id="filter0_d_1139_3290" x="3.49508" y="8.49508" width="310.611" height="369.967" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
