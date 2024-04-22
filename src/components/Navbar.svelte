@@ -131,7 +131,7 @@
         <li><a href="#techOverviewContainer" use:scrollTo>About</a></li>
         <li><a href="#comparisonContainer" use:scrollTo>Compare</a></li>
         <li><a href="#featuresAdvantagesContainer" use:scrollTo>Features</a></li>
-        <li><a href="https://discover.nomo.zone/">Discover WebOn</a></li>
+        <li><a href="https://discover.webon.info/">Discover WebOn</a></li>
     </ul>
 </nav>
 

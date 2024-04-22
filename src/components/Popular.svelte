@@ -145,6 +145,6 @@
         {/each}
     </div>
     <button>
-        <a href="https://discover.nomo.zone/" >Explore all WebOns</a>
+        <a href="https://discover.webon.info/" >Explore all WebOns</a>
     </button>
 </div>
