@@ -24,7 +24,7 @@
     .tech-overview-content {
         margin-bottom: 3rem;
         max-width: 1200px;
-        font-size: calc(0.7rem + 0.4vw);
+        font-size: calc(0.8rem + 0.5vw);
     }
 
     .icon-container {
@@ -43,12 +43,12 @@
     .tech-overview-footer {
         margin-top: 3rem;
         max-width: 1200px;
-        font-size: calc(0.7rem + 0.4vw);
+        font-size: calc(0.8rem + 0.5vw);
     }
 
 </style>
 
-<div class="tech-overview-container">
+<div id="tech-overview-container"  class="tech-overview-container">
     <div class="tech-overview-header">
         <h2 id="learn-more">What Is WebOn Technology?</h2>
     </div>

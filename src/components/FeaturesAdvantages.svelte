@@ -31,7 +31,7 @@
     }
 
     .feature-item {
-        font-size: calc(0.7rem + 0.4vw);
+        font-size: calc(0.8rem + 0.5vw);
         margin-bottom: 1rem;
         text-align: left;
         display: flex;
@@ -59,7 +59,7 @@
         padding: 2rem;
         border-radius: 8px;
         text-align: left;
-        font-size: calc(0.7rem + 0.4vw);
+        font-size: calc(0.8rem + 0.5vw);
     }
 
 
@@ -89,7 +89,7 @@
     }
 </style>
 
-<div class="features-container">
+<div id="featuresAdvantagesContainer" class="features-container">
     <div class="content-container">
         <h2 class="section-header">The Features of WebOn Technology</h2>
         <ul class="feature-list">

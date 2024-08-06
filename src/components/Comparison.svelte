@@ -75,6 +75,7 @@
         align-items: center;
         justify-content: center;
         text-align: center;
+        font-size: calc(0.7rem + 0.4vw);
     }
 
     th, td {
@@ -94,7 +95,7 @@
         margin-top: 2rem;
         margin-bottom: 3rem;
         max-width: 1200px;
-        font-size: calc(0.7rem + 0.4vw);
+        font-size: calc(0.8rem + 0.5vw);
     }
 
     .footer-s {
@@ -103,7 +104,7 @@
         margin-top: 2rem;
         margin-bottom: 3rem;
         max-width: 1200px;
-        font-size: calc(0.7rem + 0.4vw);
+        font-size: calc(0.8rem + 0.5vw);
     }
 
     h2{
@@ -161,7 +162,7 @@
 
 </style>
 
-<div class="container">
+<div id="comparisonContainer" class="container">
     <div class="header">
         <h2>MetaMask vs. Wallet Connect vs. WebOn Technology</h2>
     </div>

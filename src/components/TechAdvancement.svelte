@@ -24,7 +24,7 @@
     .tech-advancement-content {
         margin-bottom: 3rem;
         max-width: 1200px;
-        font-size: calc(0.7rem + 0.4vw);
+        font-size: calc(0.8rem + 0.5vw);
     }
 
     .icon-container {
@@ -43,7 +43,7 @@
     .tech-advancement-footer {
         margin-top: 3rem;
         max-width: 1200px;
-        font-size: calc(0.7rem + 0.4vw);
+        font-size: calc(0.8rem + 0.5vw);
     }
 
 </style>

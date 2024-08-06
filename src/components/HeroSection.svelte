@@ -124,7 +124,7 @@
 
     .hero-section p {
         max-width: 1200px;
-        font-size: calc(0.7rem + 0.4vw);
+        font-size: calc(0.8rem + 0.5vw);
         margin:2rem;
     }
 

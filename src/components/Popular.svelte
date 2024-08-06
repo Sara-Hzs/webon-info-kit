@@ -91,7 +91,7 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        height: 380px;
+        height: 420px;
         border: 1px solid gray;
         background-color: transparent;
         padding: 1rem;
