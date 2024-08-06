@@ -98,7 +98,7 @@
         text-align: left;
         color: #fff;
         border-radius: 8px;
-        font-size: calc(0.7rem + 0.4vw);
+        font-size: calc(0.7rem + 0.5vw);
 
     }
 
